@@ -274,17 +274,21 @@
 
 // Object.create and pure prototypal inheritance
 
-var person = {
-    firstname : "Default",
-    lastname : "Default",
-    greet : function(){
-        return 'Hi'+ ' ' + this.firstname;
-    }
-}
+// var person = {
+//     firstname : "Default",
+//     lastname : "Default",
+//     greet : function(){
+//         return 'Hi'+ ' ' + this.firstname;
+//     }
+// }
  
-var john = Object.create(person);
-john.firstname = 'John';
-john.lastname = "KC";
-console.log(john);
+// var john = Object.create(person);
+// john.firstname = 'John';
+// john.lastname = "KC";
+// console.log(john);
 
 // Polyfill ===> It is the code that adds the feature which the engine may lack.
+
+// ODDS and ENDS
+// typeof and instanceof are some useful examples
+// "use strict"; is used for strict version of js
